@@ -1,7 +1,7 @@
 name: release
 on:
   release:
-    types: [published]
+    types: [push]
 jobs:
   build_push_and_publish:
     runs-on: ubuntu-20.04
